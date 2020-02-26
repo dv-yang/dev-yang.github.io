@@ -1061,9 +1061,9 @@ footer .footnote .highlight {
 
 	nav .link-wrap {
 		background: none;
-		height: initial;
+		height: auto;
 		overflow: visible;
-		position: initial;
+		position: static;
 		text-align: left;
 	}
 	nav .link-wrap .visible {
