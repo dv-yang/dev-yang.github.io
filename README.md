@@ -1,5 +1,5 @@
-# 개발자 Yang의 Portfolio
-## portfolio
-* 소개
-* 프로젝트
-* 연락처
+## 개발자 양원철의 포트폴리오
+### Link: [포트폴리오](https://dv-yang.github.io)
+> 소개   
+> 프로젝트   
+> 연락처   
