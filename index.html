@@ -24,6 +24,17 @@
     <script src="resources/scripts/pt.min.js"></script>
     <script src="resources/scripts/index.js"></script>
     <script src="resources/scripts/modal.js"></script>
+    <script type="text/javascript">
+      var start = new Date("2013-09-01");
+      var end = new Date();
+
+      var diff = new Date(end - start);
+
+      // get days
+      var days = diff/1000/60/60/24/365;
+
+      $("#year").text(Math.ceil(days));
+    </script>
   </head>
   <body>
     <div class="overflow-wrap">
@@ -96,7 +107,7 @@
               <!-- <div><img class="up-arrow" src="resources/img/up-arrow.png"></div> -->
               <div class="label bold">간략한 소개</div>
               <div>
-                개발경력 7년차 웹개발자로 백엔드를 주력으로 담당해 왔습니다.<br />
+                개발경력 <span id="year"></span>년차 웹개발자로 백엔드를 주력으로 담당해 왔습니다.<br />
                 개발자의 가장 중요한 소양은 성장이라는 마음을 가지고 있으며<br />
                 성장을 위해 신기술을 접하고 사용해보는것을 좋아합니다.<br />
               </div>
