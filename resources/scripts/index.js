@@ -207,7 +207,7 @@ $(function() {
 		per: 85
 	},{
 		name: 'AWS', 
-		per: 80
+		per: 70
 	},{
 		name: 'Git', 
 		per: 85
