@@ -26,14 +26,9 @@
     <script src="resources/scripts/modal.js"></script>
     <script type="text/javascript">
       $(function() {
-        var start = new Date("2013-09-01");
         var end = new Date();
-
-        var diff = new Date(end - start);
-
-        // get days
-        var years = diff/1000/60/60/24/365;
-        $("#years").html(Math.ceil(years));
+        var y = end.getFullYear();
+        $("#years").html(y-2012);
       })
     </script>
   </head>
